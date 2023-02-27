@@ -8,5 +8,5 @@ body{
 }
 
 .shown{
-  display: block;
+  display: inline-block;
 }
