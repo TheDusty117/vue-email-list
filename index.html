@@ -15,9 +15,10 @@
 <body>
 
   <div id="app">
+    <button @click="generateMailFromApi()">bottone</button>
     <ul>
       <li v-for="email in email">
-        <h1>{{email}}</h1>
+        <h1 class="" id="item">{{email}}</h1>
       </li>
     </ul>
   </div>
@@ -28,3 +29,4 @@
   <script src="./js/app.js"></script>
 </body>
 </html>
+
