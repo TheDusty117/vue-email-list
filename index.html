@@ -16,9 +16,10 @@
 
   <div id="app">
     <ul>
-      <li v-for="email in email">
-        <h1 class="hidden" id="item"
-        v-if=" email.length === 10 ? 'shown' : '' ">{{email}}</h1>
+      <li v-for="email in email"
+       class="hidden"
+      :class=" email.length === 9 ? 'shown' : '' ">
+        <h1>{{email}}</h1>
       </li>
     </ul>
   </div>
